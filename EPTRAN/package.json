@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "tailwindcss": "^3.4.3"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.5.2"
-  }
-}
