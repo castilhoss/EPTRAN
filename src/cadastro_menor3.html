@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPTRAN</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .form-container {
+            width: 40%;
+        }
+    </style>
+</head>
+<body class="bg-white p-0 m-0">
+    <div class="flex items-center" style="width: 100%; height: 100vh;">
+        <div class="imagem flex-shrink-0" style="width: 55%; height: 100vh;">
+            <img src="/assets/Moinho.png" alt="Imagem do Moinho" style="height: 100vh; width: 100%;">
+        </div>
+        
+        <div class="form-container p-11 bg-white flex flex-col items-center h-full" style="width: 45%; justify-content: center;">
+            <a href="/src/index.html">
+                <img src="/assets/logo_azul.png" alt="Logo Azul">
+            </a>
+
+            <div class="align-left">
+                <h1 class="text-5xl font-semibold mt-4 text-center text-blue-prefeitura" style="color: rgb(51, 112, 226);">Cadastre-se</h1>
+                <p class="text-gray-600">Siga os passos para cadastrar sua conta</p>
+            </div>
+
+            <form class="mt-4 w-96">
+                <div class="mb-4">
+                    <label for="senha" class="block text-sm font-medium text-gray-700">Crie sua senha</label>
+                    <input type="text" id="senha" name="senha" placeholder="Insira aqui sua senha" required class="p-2 mt-1 block w-full border border-gray-400 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+
+                <div class="mb-4">
+                    <label for="senha" class="block text-sm font-medium text-gray-700">Repita sua senha</label>
+                    <input type="text" id="senha" name="senha" placeholder="Insira aqui sua senha" required class="p-2 mt-1 block w-full border border-gray-400 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+                </div>
+
+                <div class="mb-4 flex items-center">
+                    <input type="checkbox" id="maior13anos" name="maior13anos" class="mr-2" required>
+                    <label for="maior13anos" class="block text-sm font-medium text-gray-700">Sou maior de 18 anos e concordo com os termos ao cadastrá-lo</label>
+                </div>
+
+
+                <a href="/src/cadastro2.html"><button type="submit" class="text-white px-4 py-2 rounded-md hover:bg-indigo-900 w-full" style="background-color: rgb(51, 112, 226);">Cadastrar</button></a>
+            </form>
+
+            <a href="/src/cadastro_menor2.html" class="text-sm mt-2 block"><u>Voltar</u></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/0220b2a25d.js" crossorigin="anonymous"></script>    
+</body>
+</html>
